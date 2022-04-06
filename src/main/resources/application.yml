@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /api/v1/burger-tour
+  port: 8080
+
+spring:
+  application:
+    name: burger-tour
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
